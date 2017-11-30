@@ -1740,7 +1740,8 @@ body {
   display: -webkit-flex;
   flex-direction: column;
   -webkit-flex-direction: column;
-  word-break: break-word;
+  word-break: break-word
+  margin-top:-50px;
 }
 .cid-qCahLROTDB .media {
   margin: initial;
@@ -1827,11 +1828,23 @@ body {
   text-align: center;
   font-weight: 500;
 }
-@media(max-width: 992px)
-{.cid-qCaiQqD2Sa .mbr-text{
+.cid-qCaiQqD2Sa .mbr-text .mbr-text-sub{
+	
+  font-weight: 700;
+  font-size: 18px;
+  color:#505050;
+}
+@media(max-width: 992px){
+	.cid-qCaiQqD2Sa .mbr-text{
 	text-align:justify;
 	font-weight: 500;
-}}
+}
+.cid-qCaiQqD2Sa .mbr-text .mbr-text-sub{
+  font-weight: 700;
+  font-size: 16px;
+  color:#505050;
+}
+}
 .cid-qCfCLiADyO {
   padding-top: 60px;
   padding-bottom: 60px;
