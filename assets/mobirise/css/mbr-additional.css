@@ -1740,8 +1740,11 @@ body {
   display: -webkit-flex;
   flex-direction: column;
   -webkit-flex-direction: column;
-  word-break: break-word
-  margin-top:-50px;
+  word-break: break-word;
+}
+.features11 .mbr-section-text {
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
 .cid-qCahLROTDB .media {
   margin: initial;
@@ -1829,7 +1832,7 @@ body {
   font-weight: 500;
 }
 .cid-qCaiQqD2Sa .mbr-text .mbr-text-sub{
-	
+
   font-weight: 700;
   font-size: 18px;
   color:#505050;
