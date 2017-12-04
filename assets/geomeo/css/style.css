@@ -1,0 +1,204 @@
+/*!
+ * Version		: 1.0
+ * Author		: Ram Kumar SK
+ * GitHub		: https://github.com/ramkumar21/geomeowebsite
+ * Company		: GeoMeo Informatics
+ */
+.clients{
+	box-sizing:border-box;
+	background:#f9f9f9 url(../../../assets/images/background.png) no-repeat;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.climg{
+    vertical-align: middle;
+    border-style: none;
+    padding-bottom: 5px;
+	width:100px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.climg:hover{
+	-webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter:none;
+}
+.tot {
+	box-sizing:border-box;
+	background:#f9f9f9 url(../../../assets/images/background.png) no-repeat;
+	padding-top:40px;
+	padding-bottom:9px;
+
+}
+
+.tot-body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 525px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top:15px;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.tot h3
+{
+    text-align: center;
+	font-size:36px;
+	font-weight:700;
+	color:#5d5d5d;
+	padding-bottom:10px;
+}
+
+
+
+.column {
+  float: left;
+  width: 55%;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.tot .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tot .container {
+  padding: 10px 16px;
+  text-align:center;
+}
+
+.tot .team-p{
+  text-align:justify;
+  font-size: 14px;
+}
+
+.tot .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.b-center{
+margin-left:300px;
+}
+@media(max-width:900px){
+.b-center{
+margin-left:230px;
+}
+}
+@media(max-width:650px){
+.b-center{
+margin-left:auto;
+margin:10px;
+}
+}

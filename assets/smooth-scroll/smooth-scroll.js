@@ -1,6 +1,6 @@
-//
-// SmoothScroll for websites v1.4.5 (Balazs Galambosi)
-// http://www.smoothscroll.net/
+// 
+// SmoothScroll for websites v1 
+// http://geomeoinformatics.com
 //
 // Licensed under the terms of the MIT license.
 //
@@ -748,3 +748,4 @@ else
     window.SmoothScroll = SmoothScroll;
 
 })();
+//credits Balazs Galambosi for SmoothScroll
